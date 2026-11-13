@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+f<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>TOKO ALKES INDONESIA - Alat Kesehatan Terpercaya</title>
+    <title>TOKO Medika Care- Alat Kesehatan Terpercaya</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome untuk Ikon Medis -->
@@ -48,8 +48,7 @@
                         <i class="fa-solid fa-notes-medical"></i>
                     </div>
                     <div>
-                        <h1 class="font-extrabold text-base md:text-lg tracking-wide uppercase leading-tight">TOKO ALKES INDONESIA</h1>
-                        <p class="text-xs text-alkes-100 flex items-center gap-1">
+                        <h1 class="font-extrabold text-base md:text-lg tracking-wide uppercase leading-tight">Medika Care
                             <span class="w-2 h-2 rounded-full bg-emerald-400 inline-block animate-pulse"></span> Medis & Laboratorium
                         </p>
                     </div>
@@ -1014,7 +1013,7 @@
             const produk = daftarProduk.find(p => p.id === id);
             if (!produk) return;
 
-            const pesan = `Halo Admin TOKO ALKES INDONESIA,\n\nSaya ingin memesan alat kesehatan berikut:\n- *Produk:* ${produk.nama}\n- *Merek:* ${produk.merek}\n- *Harga:* ${formatRupiah(produk.harga)}\n- *Jumlah:* 1 unit\n\nApakah stok masih tersedia? Terima kasih.`;
+            const pesan = `Halo Admin Medika care,\n\nSaya ingin memesan alat kesehatan berikut:\n- *Produk:* ${produk.nama}\n- *Merek:* ${produk.merek}\n- *Harga:* ${formatRupiah(produk.harga)}\n- *Jumlah:* 1 unit\n\nApakah stok masih tersedia? Terima kasih.`;
             const url = `https://wa.me/${formatNomorWA(nomorWaToko)}?text=${encodeURIComponent(pesan)}`;
             window.open(url, '_blank');
         }
@@ -1045,7 +1044,7 @@
             });
 
             const pesanWA = 
-`*PESANAN BARU - TOKO ALKES INDONESIA*
+`*PESANAN BARU - Medika Care*
 ================================
 *DATA PEMBELI:*
 • Nama: ${nama}
